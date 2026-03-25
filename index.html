@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Venuly — Discover Events Around You</title>
+  <meta name="description" content="Venuly helps you discover local events happening around you. Browse concerts, sports, arts, and more in cities across Canada.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav-container">
+      <a href="/" class="nav-logo">
+        <img src="assets/logo.svg" alt="Venuly logo" width="32" height="32">
+        Venuly
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="/" class="active">Home</a></li>
+        <li><a href="/privacy">Privacy</a></li>
+        <li><a href="/terms">Terms</a></li>
+        <li><a href="/support">Support</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-mascot">
+          <img src="assets/logo.svg" alt="Venuly" width="120" height="120">
+        </div>
+        <h1>Venuly</h1>
+        <p class="tagline">Discover events around you</p>
+        <p>Find concerts, sports, arts, theatre, and more happening in your city. Venuly brings local events to your fingertips — no account needed, no tracking, just events.</p>
+        <a href="#" class="app-store-badge">Download on the App Store</a>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">&#127915;</div>
+          <h3>Browse Events</h3>
+          <p>Explore events by category — concerts, sports, arts, family, and more — all in one place.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">&#128205;</div>
+          <h3>15 Canadian Cities</h3>
+          <p>Find events in Toronto, Vancouver, Montreal, Calgary, Ottawa, and 10 more cities across Canada.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">&#128274;</div>
+          <h3>Privacy First</h3>
+          <p>No account required. No tracking. Your preferences stay on your device — always.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <ul class="footer-links">
+      <li><a href="/privacy">Privacy Policy</a></li>
+      <li><a href="/terms">Terms of Use</a></li>
+      <li><a href="/support">Support</a></li>
+    </ul>
+    <p>&copy; 2025 Venuly. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
