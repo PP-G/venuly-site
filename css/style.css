@@ -367,6 +367,25 @@ img, svg {
   color: var(--purple-100);
 }
 
+/* ===== Language Toggle ===== */
+.lang-toggle {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  border: 1.5px solid var(--purple-100);
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--purple-100) !important;
+  transition: background 0.2s, color 0.2s;
+}
+
+.lang-toggle:hover {
+  background: var(--white);
+  color: var(--purple-700) !important;
+  border-color: var(--white);
+}
+
 /* ===== Responsive ===== */
 @media (max-width: 768px) {
   .nav-toggle {
